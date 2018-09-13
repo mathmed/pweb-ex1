@@ -20,6 +20,7 @@
 
 	
 	
+	
 </head>
 
 <body>
@@ -28,7 +29,7 @@
 	     <div class="nav-wrapper">
 	       <a href="#!" class="brand-logo">@Mathmed</a>
 	       <ul class="right hide-on-med-and-down">
-	         <li><a href="mateus/portifolio">Meu curriculum</a></li>
+	         <li><a href="portifolio">Meu curriculum</a></li>
 	         <li><a href="login.jsp">Página de Login</a></li>
 	       </ul>
 	     </div>
@@ -41,6 +42,18 @@
 		<div class = "div-title">
 			<h1>Exemplo formulário login</h1>
 		</div>
+		
+		<form method = "POST" action = "/atividade/LoginServlet">
+			<div class = "form">
+				<input name = "login" class = "form-control input" placeholder = "Informe o Login">
+				<input name = "senha" type = "password" class = "form-control input" placeholder = "Informe sua senha">
+			</div>
+			
+			<div class = "div-center">
+				<button type = "submit" class = "btn-send">Logar-se <i class = "fa fa-hand-point-right espaco"></i></button>
+			</div>
+			
+		</form>
 		
 	</div>
 	

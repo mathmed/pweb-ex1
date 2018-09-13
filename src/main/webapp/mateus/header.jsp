@@ -28,7 +28,7 @@
 	     <div class="nav-wrapper">
 	       <a href="#!" class="brand-logo">@Mathmed</a>
 	       <ul class="right hide-on-med-and-down">
-	         <li><a href="mateus/portifolio">Meu curriculum</a></li>
+	         <li><a href="portifolio">Meu curriculum</a></li>
 	         <li><a href="login.jsp">P�gina de Login</a></li>
 	       </ul>
 	     </div>
