@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Questï¿½o 1 - Resposta</title>
+	<title>Login</title>
 	<!-- Jquery  -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	
@@ -29,7 +29,7 @@
 	       <a href="#!" class="brand-logo">@Mathmed</a>
 	       <ul class="right hide-on-med-and-down">
 	         <li><a href="mateus/portifolio">Meu curriculum</a></li>
-	         <li><a href="login.jsp">Pï¿½gina de Login</a></li>
+	         <li><a href="login.jsp">Página de Login</a></li>
 	       </ul>
 	     </div>
 	   </nav>
@@ -39,15 +39,9 @@
 			<a href = "../" class = "btn btn-voltar" type = "button">Voltar</a>
 		</div>
 		<div class = "div-title">
-			<h1>Questï¿½o 3: Exemplo cabeï¿½alho</h1>
+			<h1>Exemplo formulário login</h1>
 		</div>
 		
-		<%@ page import="com.jcg.servlet.DisplayHeader" %>
-		<%
-			
-			DisplayHeader header = new DisplayHeader();
-			header.doGet(request, response);
-		%>
 	</div>
 	
 </body>
