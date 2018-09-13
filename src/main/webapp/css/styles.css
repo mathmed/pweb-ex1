@@ -1,0 +1,45 @@
+.div-title {
+	align-items: center;
+	display: flex; 
+	justify-content: center;
+	border: 2px solid #18DCC4;
+	border-radius: 15px;
+	margin-top: 20px;
+	flex-direction: column;
+}
+
+.div-title h1 {
+	font-size: 2em;
+	margin: 10px;
+}
+
+.div-title h2 {
+	font-size: 1.5em;
+	margin: 10px;
+}
+
+nav {
+	background-color: #0e8475;
+}
+
+.nav-style {
+	padding: 0 8em 0 8em;
+}
+
+.questoes {
+	margin-top: 40px;
+}
+
+.btn-voltar {
+	margin-top: 1em;
+	background: #f6546a;
+}
+
+.btn-voltar:hover, .btn-voltar:active, .btn-voltar:focus {
+	background: #ac3a4a;
+}
+green {
+	font-weight: bold;
+	color: #0e8475;
+}
+
