@@ -85,3 +85,16 @@ green {
 	background: white;
 	color: #0066cc;
 }
+
+.error {
+	color: white;
+	background: #f6546a;
+	font-weight: bold;
+}
+
+.card-panel {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}

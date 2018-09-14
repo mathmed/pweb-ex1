@@ -1,4 +1,4 @@
-package com.jcg.servlet;
+package br.ufrn.ceres.bsi.pweb.ex1mateus.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;

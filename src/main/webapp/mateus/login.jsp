@@ -1,4 +1,7 @@
-
+<% String username = (String)request.getSession().getAttribute("erros") != null ? (String)request.getSession().getAttribute("erros") : ""; %>
+<%=
+username
+%>
 
 <!DOCTYPE html>
 <html>
@@ -17,10 +20,6 @@
 	
 	<!-- Icons  -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
-	
-	
-	
 </head>
 
 <body>
@@ -43,7 +42,7 @@
 			<h1>Exemplo formulário login</h1>
 		</div>
 		
-		<form method = "POST" action = "/atividade/LoginServlet">
+		<form method = "POST" action = "/ex1mateus/LoginServlet">
 			<div class = "form">
 				<input name = "login" class = "form-control input" placeholder = "Informe o Login">
 				<input name = "senha" type = "password" class = "form-control input" placeholder = "Informe sua senha">
