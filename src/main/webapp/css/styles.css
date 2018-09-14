@@ -4,7 +4,7 @@
 	justify-content: center;
 	border: 2px solid #18DCC4;
 	border-radius: 15px;
-	margin-top: 20px;
+	margin: 20px 0 20px 0;
 	flex-direction: column;
 }
 
